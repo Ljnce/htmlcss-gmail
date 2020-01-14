@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 700px;
+    margin: 0 auto;
+    color: Black;
+    margin-bottom:10px;
+}
+img{
+     vertical-align: middle;
+ }
+
+footer{
+    text-align: center;
+}
+.line{
+    border-bottom: 2px double #ededed;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+/* Per non avere una ripetitività dello sfondo, mantenere lo schermo più piccolo */
+body{
+    background-image: url(https://image.freepik.com/free-photo/empty-wooden-deck-table-mint-wallpaper-background_1421-1563.jpg);
+    background-position: button;
+    background-size: 932px;
+}
+
+.star:before{
+    content: "\01F31F"
+}
+
+.testomail:after {
+    content: "\021F0"
+}
+
+.post:before{
+    content:"..."
+}
+/* Ho richiamato il colore di sfondo utilizzando lo stumento "cattura un colore nella pagina" */
+.Mail1{
+    background-color: ##c6ebe5;
+}
+.Mail2{
+    background-color: #c6ebe5;
+}
+.titolo{
+    text-align: center;
+}
+.mail{
+    border: 2px ridge #ededed;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.logo{
+    margin-top: 15px;
+    font-family: 'Gochi Hand', cursive;
+}
+button{
+    margin-left: 4px;
+}
+
+.ricerca{
+    text-align: right;
+}
+.page{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.cerchio {
+	border-radius:50px;
+	background:orange;
+    padding: 5px;
+    display: inline-block;
+}
+.crea{
+    margin-bottom: 10px;
+}
+.unread{
+    font-style: italic;
+}
